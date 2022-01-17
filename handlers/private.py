@@ -12,16 +12,11 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/f4e1c2ebc7a14110faf47.jpg",
         caption=f"""**ʜᴇʟʟᴏ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇ ᴍᴜsɪᴄ ʀᴏʙᴏᴛ ᴅᴇᴘʟᴏʏᴇᴅ ᴠᴘs  ᴄᴀᴛ sᴇᴠᴇ. 
-        ┏━━━━━━━━━━━━━━━━━┓
-
+┏━━━━━━━━━━━━━━━━━┓
 ┣» ᴏᴘ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ. 
-
 ┣» ʜɪɢʜ ǫᴜᴀʟɪᴛʏ  ᴍᴜꜱɪᴄ.
-
 ┣» ᴀᴅᴠᴀɴᴄᴇᴅ ꜰᴇᴀᴛᴜʀᴇꜱ.
-
 ┣» ꜱᴜᴘᴇʀꜰᴀꜱᴛ ꜱᴘᴇᴇᴅ.
-
 ┗━━━━━━━━━━━━━━━━━┛
 [ʙʟᴀᴄᴋ ᴄᴀᴛ ❤️](https://t.me/catmusicworld)
 
