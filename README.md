@@ -1,4 +1,4 @@
-SmokerMusicX# BLACK CATMUSICX
+# BLACK CATMUSICX
 
 ### Best Smart Voice Chat Music Bot For Telegram Groups ...
 
