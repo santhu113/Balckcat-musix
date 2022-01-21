@@ -27,7 +27,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🥀 Jᴏɪɴ Hᴇʀᴇ & Sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/santhuvc")
+                        "🥀 𝐍𝐀𝐍𝐔 𝐆𝐑𝐎𝐔𝐏 𝐋𝐎 𝐀𝐃𝐃 𝐂𝐇𝐄𝐒𝐔 𝐊𝐎𝐍𝐃𝐈 ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true", 
                 ]
                 
            ]
@@ -38,7 +38,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f4e1c2ebc7a14110faf47.jpg",
+        photo=f"https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
