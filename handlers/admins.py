@@ -65,4 +65,4 @@ async def skip(_, message: Message):
                     ),
                 ),
             )
-    await message.reply_text("➡️ 𝐒𝐤𝐢𝐩 💫 𝐓𝐡𝐞 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 ✨ 𝐒𝐨𝐧𝐠 🥀")
+    await message.reply_text("➡️ 𝐄𝐩𝐩𝐮𝐝𝐮 𝐩𝐥𝐚𝐲 𝐚𝐲𝐢𝐭𝐡𝐮𝐧𝐚💫 𝐒𝐨𝐧𝐠 𝐍𝐢 ✨ 𝐒𝐤𝐢𝐩 𝐂𝐡𝐞𝐬𝐚 chalabadava😂🥀")
