@@ -50,7 +50,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("❗ 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 😔  𝐈𝐬 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🎶 𝐓𝐨 𝐒𝐤𝐢𝐩 🥀")
+        await message.reply_text("❗ 𝐄𝐦𝐢 𝐥𝐞𝐝𝐡𝐮 𝐫𝐚 𝐧𝐢𝐛𝐛𝐚 𝐠𝐚😔 𝐒𝐤𝐢𝐩 🎶 𝐂𝐡𝐞𝐲𝐚𝐭𝐚𝐧𝐢𝐤𝐢 🥀")
     else:
         queues.task_done(chat_id)
         
@@ -65,4 +65,4 @@ async def skip(_, message: Message):
                     ),
                 ),
             )
-    await message.reply_text("➡️ 𝐄𝐩𝐩𝐮𝐝𝐮 𝐩𝐥𝐚𝐲 𝐚𝐲𝐢𝐭𝐡𝐮𝐧𝐚💫 𝐒𝐨𝐧𝐠 𝐍𝐢 ✨ 𝐒𝐤𝐢𝐩 𝐂𝐡𝐞𝐬𝐚 chalabadava😂🥀")
+    await message.reply_text("👉𝐄𝐩𝐩𝐮𝐝𝐮 𝐩𝐥𝐚𝐲 𝐚𝐲𝐢𝐭𝐡𝐮𝐧𝐚💫 𝐒𝐨𝐧𝐠 𝐍𝐢 ✨ 𝐒𝐤𝐢𝐩 𝐂𝐡𝐞𝐬𝐚 𝐜𝐡𝐚𝐥𝐚𝐛𝐚𝐝𝐚𝐯𝐚 😂")
