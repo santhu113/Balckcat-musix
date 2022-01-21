@@ -2,7 +2,7 @@
   "name": "santhu",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/santhu113/Balckcat-musix.git",
+  "repository": "https://github.com/Blackcat3046/Balckcat-musix",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
