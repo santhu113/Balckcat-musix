@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **sᴏɴɢ ᴘʀᴏᴄᴇssɪɴɢ ғʀᴏᴍ ᴏᴜʀ sᴇʀᴠᴇʀ...**")
+    lel = await message.reply("🧐 **𝐚𝐠𝐮 𝐫𝐚 𝐧𝐢𝐛𝐛𝐚 𝐠𝐚 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐚𝐲𝐢𝐭𝐡𝐮𝐧𝐝𝐡𝐢...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b> ɴᴀɴᴜ ᴀᴅᴍɪɴ ᴄʜᴀʏᴜ 😒 💫 ❰ ʙʟᴀᴄᴋ ᴄᴀᴛ ❱</b>")
+                        "<b> ɴᴀɴᴜ ᴀᴅᴍɪɴ ᴄʜᴀʏᴜ 😒 💫 ❰𝐬𝐚𝐧𝐭𝐡𝐮 ❱</b>")
                     return
 
                 try:
@@ -130,7 +130,7 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛- ᴋᴀɴɴᴀ](https://t.me/The_cat_lover0) ❤️🥀 :) ")
+                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛- sᴀɴᴛʜᴏsʜ](https://t.me/santhu_music_bot) ❤️🥀 :) ")
     try:
         await USER.get_chat(chid)
     except:
@@ -162,22 +162,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʙʟᴀᴄᴋ ᴄᴀᴛ ",
-                            url=f"https://t.me/The_cat_lover0")
+                            text="ʂαɳƚԋυ ",
+                            url=f"https://t.me/santhu_music_bot")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍᴇᴏᴡ",
-                            url=f"https://t.me/catmusicworld"),
+                            text="𝐛𝐨𝐨 👻",
+                            url=f"https://t.me/santhuvc"),
                             
                     InlineKeyboardButton(
                             text="ɴɪʙʙᴀ🥀",
-                            url=f"https://t.me/S_SilentB0Y_Y")
+                            url=f"https://t.me/santhu_music_bot")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/TeluguCrazyPeople")
+                            url=f"https://t.me/santhuvc")
                    
                 ]
             ]
@@ -215,17 +215,17 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʙʟᴀᴄᴋ ᴄᴀᴛ ",
-                            url=f"https://t.me/The_cat_lover0")
+                            text="ʂαɳƚԋυ",
+                            url=f"https://t.me/santhu_music_bot")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍᴇᴏᴡ",
-                            url=f"https://t.me/catmusicworld"),
+                            text="𝐛𝐨𝐨 👻",
+                            url=f"https://t.me/santhuvc"),
                             
                     InlineKeyboardButton(
                             text="ɴɪʙʙᴀ🥀",
-                            url=f"https://t.me/S_SilentB0Y_Y")
+                            url=f"https://t.me/santhu_music_bot")
                ],
                [
                         InlineKeyboardButton(
@@ -238,29 +238,29 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/f4e1c2ebc7a14110faf47.jpg"
+            thumb_name = "https://te.legra.ph/file/c981eed742c6acd271ebf.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="ʙʟᴀᴄᴋ ᴄᴀᴛ ",
-                            url=f"https://t.me/The_cat_lover0")
+                            text="ʂαɳƚԋυ ",
+                            url=f"https://t.me/santhu_music_bot")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍᴇᴏᴡ",
-                            url=f"https://t.me/catmusicworld"),
+                            text="𝐛𝐨𝐨 👻",
+                            url=f"https://t.me/santhuvc"),
                             
                     InlineKeyboardButton(
                             text="ɴɪʙʙᴀ 🥀",
-                            url=f"https://t.me/S_SilentB0Y_Y")
+                            url=f"https://t.me/santhu_music_bot")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/TeluguCrazyPeople")
+                            url=f"https://t.me/santhuvc")
                    
                 ]
             ]
@@ -279,7 +279,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "✌ɴɪᴋ ᴀ ❤️ 𝐒𝐨𝐧𝐠 🎸 ᴋᴀᴠᴀʟɪ ᴏʜ ᴘʟᴀʏ  🎧  ᴄʜᴇsᴋᴏ ▶ ❤️**"
             )
-        await lel.edit("🔎")
+        await lel.edit("🧐")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -313,22 +313,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʙʟᴀᴄᴋ ᴄᴀᴛ ",
+                            text="ʂαɳƚԋυ ",
                             url=f"https://t.me/The_cat_lover0")
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍᴇᴏᴡ",
-                            url=f"https://t.me/catmusicworld"),
+                            text="𝐛𝐨𝐨 👻",
+                            url=f"https://t.me/santhuvc"),
                             
                     InlineKeyboardButton(
                             text="ɴɪʙʙᴀ🥀",
-                            url=f"https://t.me/S_SilentB0Y_Y")
+                            url=f"https://t.me/santhu_music_bot")
                ],
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/TeluguCrazyPeople")
+                            url=f"https://t.me/santhuvc")
                    
                 ]
             ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰  𝐁𝐋𝐀𝐂𝐊 𝐂𝐀𝐓 ❘ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="****❰ 𝗦𝗔𝗡𝗧𝗛𝗨 ❘ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ 𝐁𝐋𝐀𝐂𝐊 𝐂𝐀𝐓 ❘ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
+            caption="**❰ 𝗦𝗔𝗡𝗧𝗛𝗨 ❘ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
         message.chat.title
         ), )
 
