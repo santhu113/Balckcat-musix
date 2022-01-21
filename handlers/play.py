@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/9eec00aa3319366378085.jpg"https://te.legra.ph/file/9eec00aa3319366378085.jpg"
+        thumb_name = "https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -238,7 +238,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/9eec00aa3319366378085.jpg"
+            thumb_name = "https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -279,7 +279,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "✌ɴɪᴋ ᴀ ❤️ 𝐒𝐨𝐧𝐠 🎸 ᴋᴀᴠᴀʟɪ ᴏʜ ᴘʟᴀʏ  🎧  ᴄʜᴇsᴋᴏ ▶ ❤️**"
             )
-        await lel.edit("🧐")
+        await lel.edit("😛")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
