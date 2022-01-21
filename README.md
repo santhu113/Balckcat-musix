@@ -7,7 +7,7 @@
 
 
 # ʜᴇʀoᴋᴜ ᴅᴇᴘʟᴏʏ
-<p align="center"><a href="https://heroku.com/deploy?template="https://github.com/santhu113/Balckcat-musix.git> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-green?style=for-the-badge&logo=heroku" width="120" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template="https://github.com/blackcat096/Balckcat-musix> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-green?style=for-the-badge&logo=heroku" width="120" height="38.45"/></a></p>
 
 ## ᴅᴇᴘʟᴏʏ ʀᴀɪʟᴡᴀʏ ꜱᴇʀᴠᴇʀ </h4>
 
