@@ -28,7 +28,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🥀 𝐍𝐀𝐍𝐔 𝐀𝐃𝐃 𝐂𝐇𝐄𝐒𝐔 𝐊𝐎𝐍𝐃𝐈 ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true", 
+                        "🥀 𝐍𝐀𝐍𝐔 𝐀𝐃𝐃 𝐂𝐇𝐄𝐒𝐔 𝐊𝐎𝐍𝐃𝐈 ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true") 
                 ]
                 
            ]
