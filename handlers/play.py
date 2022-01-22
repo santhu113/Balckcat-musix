@@ -277,9 +277,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "✌ɴɪᴋ ᴀ ❤️ 𝐒𝐨𝐧𝐠 🎸 ᴋᴀᴠᴀʟɪ ᴏʜ ᴘʟᴀʏ  🎧  ᴄʜᴇsᴋᴏ ▶ ❤️**"
+                "𝐀𝐫𝐞𝐲 𝐧𝐢𝐛𝐛𝐚 𝐬𝐨𝐧𝐠 𝐧𝐚𝐦𝐞 𝐤𝐨𝐭𝐭𝐮 𝐫𝐚 𝐧𝐢𝐛𝐛𝐚 𝐠𝐚 😇❤️**"
             )
-        await lel.edit("😛")
+        await lel.edit(" 🔍")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
