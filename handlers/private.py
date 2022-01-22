@@ -29,6 +29,13 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "😘 𝐍𝐀𝐍𝐔 𝐀𝐃𝐃 𝐂𝐇𝐄𝐒𝐔𝐊𝐎 ✨", url="http://t.me/Ramcharangroupmanagementbot?startgroup=true")
+                    InlineKeyboardButton(
+                        "💥 𝐎𝐖𝐍𝐄𝐑 💞", url=f"https://t.me/santhu_music_bot")
+                    InlineKeyboardButton(
+                        "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 💞", url=f"https://t.me/santhuvc")
+                    InlineKeyboardButton(
+                        "😁 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 😘", url=f"https://t.me/santhubotupadates")
+   
                 ]
                 
            ]
