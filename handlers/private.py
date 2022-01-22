@@ -10,25 +10,25 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg",
-        caption=f"""**ʜᴇʟʟᴏ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇ ᴍᴜsɪᴄ ʀᴏʙᴏᴛ ᴅᴇᴘʟᴏʏᴇᴅ ᴠᴘs  𝐬𝐚𝐧𝐭𝐡𝐮 sᴇᴠᴇ. 
+        photo=f"https://telegra.ph/file/f4e1c2ebc7a14110faf47.jpg",
+        caption=f"""**ʜᴇʟʟᴏ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇ ᴍᴜsɪᴄ ʀᴏʙᴏᴛ ᴅᴇᴘʟᴏʏᴇᴅ ᴠᴘs  ᴄᴀᴛ sᴇᴠᴇ. 
 ┏━━━━━━━━━━━━━━━━━┓
 ┣» ᴏᴘ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ. 
 ┣» ʜɪɢʜ ǫᴜᴀʟɪᴛʏ  ᴍᴜꜱɪᴄ.
 ┣» ᴀᴅᴠᴀɴᴄᴇᴅ ꜰᴇᴀᴛᴜʀᴇꜱ.
-┣» ꜱᴜᴘᴇʀꜰᴀꜱᴛ ꜱᴘᴇᴇᴅ. 
-┣» 𝐃𝐄𝐏𝐋𝐎𝐘 𝐁𝐘 💞[𝚂𝙰𝙽𝚃𝙷𝙾𝚂𝙷 ❤](https://t.me/santhu_music_bot)
+┣» ꜱᴜᴘᴇʀꜰᴀꜱᴛ ꜱᴘᴇᴇᴅ.
+┣» {𝐃𝐄𝐏𝐋𝐎𝐘 𝐁𝐘 ❤️](https://t.me/santhu_music_bot)
 ┗━━━━━━━━━━━━━━━━━┛
-[𝙽𝙴𝚃𝚆𝙾𝚁𝙺 ❤️](https://t.me/santhuvc)
+[𝚂𝙰𝙽𝚃𝙷𝚄 𝙽𝙴𝚃𝚆𝙾𝚁𝙺 ❤️](https://t.me/santhuvc)
 
 
 
-𝐈𝐟 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐀𝐧𝐲 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐀𝐧𝐝 𝐇𝐞𝐥𝐩 𝐓𝐡𝐞𝐧 𝐃𝐦 𝐌𝐲 𝐁𝐨𝐬𝐬 = [𝐒𝐀𝐍𝐓𝐇𝐎𝐒𝐇 ❤️](https://t.me/santhu_music_bot)**""",
+𝐈𝐟 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐀𝐧𝐲 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐀𝐧𝐝 𝐇𝐞𝐥𝐩 𝐓𝐡𝐞𝐧 𝐃𝐦 𝐌𝐲 𝐁𝐨𝐬𝐬 = [𝙾𝚆𝙽𝙴𝚁 ❤️](https://t.me/santhu_music_bot)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🥀 𝐍𝐀𝐍𝐔 𝐀𝐃𝐃 𝐂𝐇𝐄𝐒𝐔 𝐊𝐎𝐍𝐃𝐈 ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true") 
+                        "🥀 𝙰𝙳𝙳 𝙼𝙴 ✨", url="http://t.me/Ramcharangroupmanagementbot?startgroup=true")
                 ]
                 
            ]
@@ -45,7 +45,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝙾𝚆𝙽𝙴𝚁 💞", url=f"https://t.me/santhu_music_bot")
+                        "💥 𝐎𝐖𝐍𝐄𝐑 💞", url=f"https://t.me/santhu_music_bot")
                 ]
             ]
         ),
