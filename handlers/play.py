@@ -62,7 +62,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/foreground.png")
+    image2 = Image.open("etc/IMG_20220122_183432_146.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
