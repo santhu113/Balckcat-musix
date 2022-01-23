@@ -17,7 +17,7 @@
 
 ꜱᴛʀɪɴɢ ɴᴀᴍᴇ:
 
-[![GenerateString](https://img.shields.io/badge/telegram.it-generateString-skyblue)](https://replit.com/@HEXOROP/eSportMusic)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-skyblue?logo=telegram)](https://replit.com/@HEXOROP/eSportMusic)
 
 
 
