@@ -17,7 +17,7 @@
 
 ꜱᴛʀɪɴɢ ɴᴀᴍᴇ:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-skyblue?logo=repl)](https://replit.com/@HEXOROP/eSportMusic)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-skyblue?logo=string)](https://replit.com/@HEXOROP/eSportMusic)
 
 
 
