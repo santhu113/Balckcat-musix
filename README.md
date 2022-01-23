@@ -19,5 +19,18 @@
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-skyblue?logo=replt)](https://replit.com/@HEXOROP/eSportMusic)
 
+-------------------------------------------------
+## YOUTUBE SUPPORT AND WHATSAPP SUPPORT
+-------------------------------------------------
+<a href="https://youtube.com/channel/UC7QMr8IDR65vciXrwx4XLiQ"><img src="https://img.shields.io/badge/Click-YOUTUBE%20CHANNEL-red.svg?logo=Youtube"></a> 
+<a href="https://chat.whatsapp.com/K6Qj5xICtx87TaTZPo4tgU"><img src="https://img.shields.io/badge/Join-WHATSAPP%20CHANNEL-green.svg?logo=Whatsapp"></a>
 
+## Twitter support
 
+ <a href="https://mobile.twitter.com/SanthoshPodili"><img src="https://img.shields.io/badge/Join-SANTHOSH%20TWITTER-pink.svg?logo=Twitter"></a>
+
+## CONTACT DEVELOPER
+
+<a href="https://t.me/santhumusicbot"><img src="https://img.shields.io/badge/Join-CONTACT%20SUPPORT-yellow.svg?logo=Telegram"></a>
+## MOVIES
+<a href="https://ww3.7movierulz.pe/"><img src="https://img.shields.io/badge/Click-MOVIES%20WEBSITE-orange.svg?logo=Tv"></a>
