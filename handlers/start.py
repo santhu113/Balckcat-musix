@@ -1,5 +1,10 @@
-from NoinoiRobot import Stark
-from telethon import events, Button
+import asyncio
+from time import time
+from datetime import datetime
+from helpers.filters import command
+from pyrogram import Client, filters
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+
 
 PM_START_TEXT = """
 **Hey {}** [.](https://telegra.ph/file/622a49ad89f050473b18a.jpg)
