@@ -70,14 +70,14 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     Image.alpha_composite(image5, image6).save("temp.png")
     img = Image.open("temp.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("etc/font.otf", 32)
-    draw.text((190, 550), f"Title: {title}", (255, 255, 255), font=font)
+    font = ImageFont.truetype("etc/chicanos-font.zip", 32)
+    draw.text((200, 550), f"Title: {title}", (255, 255, 255), font=font)
     draw.text(
-(190, 590), f"Duration: {duration}", (255, 255, 255), font=font
+(200, 590), f"Duration: {duration}", (255, 255, 255), font=font
     )
-    draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
-    draw.text((190, 670),
- f"Added By: {requested_by}",
+    draw.text((200, 630), f"Views: {views}", (255, 255, 255), font=font)
+    draw.text((290, 670),
+ f"Requested By: {requested_by}",
  (255, 255, 255),
  font=font,
     )
@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🧐 **𝐚𝐠𝐮 𝐫𝐚 𝐧𝐢𝐛𝐛𝐚 𝐠𝐚 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐚𝐲𝐢𝐭𝐡𝐮𝐧𝐝𝐡𝐢...**")
+    lel = await message.reply("😏 **𝐚𝐠𝐮 𝐫𝐚 𝐧𝐢𝐛𝐛𝐚 𝐠𝐚 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐚𝐲𝐢𝐭𝐡𝐮𝐧𝐝𝐡𝐢...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b> ɴᴀɴᴜ ᴀᴅᴍɪɴ ᴄʜᴀʏᴜ 😒 💫 ❰𝐬𝐚𝐧𝐭𝐡𝐮 ❱</b>")
+                        "<b> ɴᴀɴᴜ ᴀᴅᴍɪɴ ᴄʜᴀʏᴜɴᴀɴᴜ ᴀᴅᴍɪɴ ᴄʜᴀʏᴜ 😒 💫 ❰𝐬𝐚𝐧𝐭𝐡𝐮 ❱</b>")
                     return
 
                 try:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ 𝗦𝗔𝗡𝗧𝗛𝗨 ❘ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
+            caption="**❰ 𝗦𝗔𝗡𝗧𝗛𝗨 ❘ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`..... 𝐎𝐖𝐍𝐄𝐑:@santhu_music_bot**".format(
         message.chat.title
         ), )
 
