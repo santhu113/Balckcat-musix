@@ -70,7 +70,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     Image.alpha_composite(image5, image6).save("temp.png")
     img = Image.open("temp.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("etc/chicanos-font.zip", 34)
+    font = ImageFont.truetype("etc/font.otf", 32)
     draw.text((200, 550), f"Title: {title}", (255, 255, 255), font=font)
     draw.text(
 (200, 590), f"Duration: {duration}", (255, 255, 255), font=font
@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("😏 **𝐚𝐠𝐮 𝐫𝐚 𝐧𝐢𝐛𝐛𝐚 𝐠𝐚 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐚𝐲𝐢𝐭𝐡𝐮𝐧𝐝𝐡𝐢...**")
+    lel = await message.reply("😏 **𝐚𝐠𝐮 𝐫𝐚 𝐧𝐢𝐛𝐛𝐚 𝐠𝐚 𝐬𝐨𝐧𝐠 🎵 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐚𝐲𝐢𝐭𝐡𝐮𝐧𝐝𝐡𝐢...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -162,21 +162,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʂαɳƚԋυ ",
+                            text="𝐒𝐀𝐍𝐓𝐇𝐔😉 ",
                             url=f"https://t.me/santhu_music_bot")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝐛𝐨𝐨 👻",
+                            text="𝐒𝐀𝐍𝐓𝐇𝐔 𝐍𝐄𝐓𝐖𝐎𝐑𝐊👻",
                             url=f"https://t.me/santhuvc"),
                             
                     InlineKeyboardButton(
-                            text="ɴɪʙʙᴀ🥀",
+                            text="𝐌𝐄𝐍𝐓𝐀𝐋😅 ",
                             url=f"https://t.me/santhu_music_bot")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="𝐍𝐈𝐁𝐁𝐀 𝐍𝐄𝐓𝐖𝐎𝐑𝐊🙃",
                             url=f"https://t.me/santhuvc")
                    
                 ]
@@ -215,21 +215,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʂαɳƚԋυ",
+                            text="𝐒𝐀𝐍𝐓𝐇𝐔😉 ",
                             url=f"https://t.me/santhu_music_bot")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝐛𝐨𝐨 👻",
+                            text="𝐒𝐀𝐍𝐓𝐇𝐔 𝐍𝐄𝐓𝐖𝐎𝐑𝐊👻",
                             url=f"https://t.me/santhuvc"),
                             
                     InlineKeyboardButton(
-                            text="ɴɪʙʙᴀ🥀",
+                            text="𝐌𝐄𝐍𝐓𝐀𝐋😅 ",
                             url=f"https://t.me/santhu_music_bot")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="𝐍𝐈𝐁𝐁𝐀 𝐍𝐄𝐓𝐖𝐎𝐑𝐊🙃",
                             url=f"https://t.me/santhu_music_bot")
                    
                 ]
@@ -245,21 +245,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʂαɳƚԋυ ",
+                            text="𝐒𝐀𝐍𝐓𝐇𝐔😉 ",
                             url=f"https://t.me/santhu_music_bot")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝐛𝐨𝐨 👻",
+                            text="𝐒𝐀𝐍𝐓𝐇𝐔 𝐍𝐄𝐓𝐖𝐎𝐑𝐊👻",
                             url=f"https://t.me/santhuvc"),
                             
                     InlineKeyboardButton(
-                            text="ɴɪʙʙᴀ 🥀",
+                            text="𝐌𝐄𝐍𝐓𝐀𝐋😅 ",
                             url=f"https://t.me/santhu_music_bot")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="𝐍𝐈𝐁𝐁𝐀 𝐍𝐄𝐓𝐖𝐎𝐑𝐊🙃",
                             url=f"https://t.me/santhuvc")
                    
                 ]
@@ -313,21 +313,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ʂαɳƚԋυ ",
+                            text="𝐒𝐀𝐍𝐓𝐇𝐔 ",
                             url=f"https://t.me/santhu_music_bot")
                ],
                [
                     InlineKeyboardButton(
-                            text="𝐛𝐨𝐨 👻",
+                            text="𝐒𝐀𝐍𝐓𝐇𝐔 𝐍𝐄𝐓𝐖𝐎𝐑𝐊👻",
                             url=f"https://t.me/santhuvc"),
                             
                     InlineKeyboardButton(
-                            text="ɴɪʙʙᴀ🥀",
+                            text="𝐌𝐄𝐍𝐓𝐀𝐋 ",
                             url=f"https://t.me/santhu_music_bot")
                ],
                [
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="𝐍𝐈𝐁𝐁𝐀 𝐍𝐄𝐓𝐖𝐎𝐑𝐊",
                             url=f"https://t.me/santhuvc")
                    
                 ]
