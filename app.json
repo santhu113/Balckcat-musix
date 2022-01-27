@@ -34,14 +34,6 @@
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
       "value": "10"
-    },
-    "RULES": {
-      "description": "Your Group Rules",
-      "value": ""
-    },
-    "WELCOME_TEXT": {
-      "description": "The msg you want in welcome msg.",
-      "value": ""
     }
   }
 }
