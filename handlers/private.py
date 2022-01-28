@@ -15,7 +15,7 @@ async def start_(client: Client, message: Message):
 ┏━━━━━━━━━━━━━━━━━┓
 ┣» ᴏᴘ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ. 
 ┣» ʜɪɢʜ ǫᴜᴀʟɪᴛʏ  ᴍᴜꜱɪᴄ.
-┣» ᴀᴅᴠᴀɴᴄᴇᴅ ꜰᴇᴀᴛᴜʀᴇꜱ.
+┣» ᴀᴅᴠᴀɴᴄᴇᴅ ꜰᴇᴀᴛᴜʀᴇꜱ. 
 ┣» ꜱᴜᴘᴇʀꜰᴀꜱᴛ ꜱᴘᴇᴇᴅ. 
 ┣» [𝐃𝐄𝐏𝐋𝐎𝐘 𝐁𝐘 ❤️](https://t.me/santhu_music_bot)
 ┗━━━━━━━━━━━━━━━━━┛
@@ -35,7 +35,7 @@ async def start_(client: Client, message: Message):
     )
     
 
-@Client.on_message(filter(["repo"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg",
