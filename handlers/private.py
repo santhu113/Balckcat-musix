@@ -26,7 +26,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💞 ᴀʀʏᴀ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 😇", url=f"https://t.me/iconstararyamusicadvancebot?startgroup=true")
+                        "💞 ᴀʀʏᴀ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 😇", url=f"https://t.me/Santhuadvancemusicbot?startgroup=true")
                     InlineKeyboardButton(
                         "❣️ ᴏᴡɴᴇʀ ɢᴀᴅᴜ 😝", url=f"https://t.me/santhu_music_bot")
                     InlineKeyboardButton(
