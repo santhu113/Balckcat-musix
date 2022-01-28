@@ -26,17 +26,20 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💞 ᴀʀʏᴀ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 😇", url=f"https://t.me/Santhuadvancemusicbot?startgroup=true") 
+                        "💞 sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 😇", url=f"https://t.me/Santhuadvancemusicbot?startgroup=true") 
                 ]
                     InlineKeyboardButton(
+                        "💥 ᴏᴡɴᴇʀ 💞", url=f"https://t.me/santhu_music_bot")
+                [
+                   InlineKeyboardButton(
                         "💥 𝙾𝚆𝙽𝙴𝚁 💞", url=f"https://t.me/santhu_music_bot")
                 ]
-           ]
-        ),
-    )
+            ] 
+        ), 
+     )
     
 
-@Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["Repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg",
