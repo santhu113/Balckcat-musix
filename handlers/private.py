@@ -26,14 +26,15 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💞 sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏ ᴍᴀʀɪ ✨", url=f"https://t.me/Santhuadvancemusicbot?start=true")
+                        "💞 sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ✨", url=f"https://t.me/Santhuadvancemusicbot?startgroup=true")
                 ]
                 
            ]
         ),
     )
+    
 
-@Client.on_message(command(["Repo"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/ffbb096d10dd36ad45337.jpg",
@@ -42,7 +43,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝙾𝚆𝙽𝙴𝚁 💞", url=f"https://t.me/santhu_music_bot")
+                        "💥 OWNER 💞", url=f"https://t.me/santhu_music_bot")
                 ]
             ]
         ),
