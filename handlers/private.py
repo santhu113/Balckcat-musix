@@ -26,14 +26,12 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💞 sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ 😇", url=f"https://t.me/Santhuadvancemusicbot?startgroup=true") 
-             
+                        "💞 sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏ ᴍᴀʀɪ ✨", url=f"https://t.me/Santhuadvancemusicbot?start=true")
                 ]
-
-            ] 
-        ), 
-     )
-    
+                
+           ]
+        ),
+    )
 
 @Client.on_message(command(["Repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
