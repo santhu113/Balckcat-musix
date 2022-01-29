@@ -318,7 +318,7 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍʀ ᴀʀʏᴀ",
+                            text="ᴏᴡɴᴇʀ 💞",
                             url=f"https://t.me/santhu_music_bot"),
                             
                     InlineKeyboardButton(
