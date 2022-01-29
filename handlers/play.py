@@ -62,7 +62,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/Picsart_22-01-27_20-08-53-657.png")
+    image2 = Image.open("etc/Picsart_22-01-27_02-29-17-452.jpg")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -77,7 +77,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     )
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text((190, 670),
- f"Added By: {requested_by}",
+ f"requested by: {requested_by}",
  (255, 255, 255),
  font=font,
     )
