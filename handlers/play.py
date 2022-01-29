@@ -167,7 +167,7 @@ async def play(_, message: Message):
                ],
                [
                     InlineKeyboardButton(
-                            text="ᴍʀ ᴀʀʏᴀ",
+                            text="ᴍʀ ᴀʀʏᴀ 💞",
                             url=f"https://t.me/nenu_na_crush"),
                             
                     InlineKeyboardButton(
