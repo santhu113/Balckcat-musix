@@ -62,7 +62,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/Picsart_22-01-27_20-08-53-657.png")
+    image2 = Image.open("etc/Picsart_22-01-29_20-56-57-300.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -323,7 +323,7 @@ async def play(_, message: Message):
                             
                     InlineKeyboardButton(
                             text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/friends_life_forever")
+                            url=f"https://t.me/nenu_na_crush")
                ],
                [
                         InlineKeyboardButton(
