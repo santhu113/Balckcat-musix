@@ -313,7 +313,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            ᴛᴇxᴛ="ᴍᴜsɪᴄ ɢʀᴏᴜᴘ 😁",
+                            text="ᴍᴜsɪᴄ ɢʀᴏᴜᴘ 😁",
                             url=f"https://t.me/santhuvc")
                ],
                [
